@@ -4,6 +4,7 @@ import utilStyles from '../styles/utils.module.css'
 import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'
 import Date from '../components/date'
+import Image from 'next/image'
 
 export default function Home({ allPostsData }) {
   return (
@@ -38,7 +39,15 @@ export default function Home({ allPostsData }) {
           ))}
         </ul>
       </section>
+      <Image
+        src="/iphone-1.jpg"
+        alt="Picture of the author"
+        width={500}
+        height={500}
+      />
+      <p>Welcome to my homepage!</p>
     </Layout>
+
   )
 }
 
