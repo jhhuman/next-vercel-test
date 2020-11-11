@@ -40,7 +40,7 @@ export default function Home({ allPostsData }) {
         </ul>
       </section>
       <Image
-        src="/iphone-1.jpg"
+        src="/profile.jpg"
         alt="Picture of the author"
         width={500}
         height={500}
