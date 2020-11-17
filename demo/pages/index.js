@@ -6,8 +6,6 @@ import Link from 'next/link'
 import Date from '../components/date'
 import Image from 'next/image'
 
-import Image from 'next/image'
-
 function Home() {
   return (
     <>
